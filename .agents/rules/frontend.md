@@ -12,30 +12,14 @@ globs:
 
 ## Stack
 
-* ReactJS
+* NextJS
 * TypeScript
-* Ant Design
+* Shadcn
 * React Query
 * Zustand
-* React Router
 
 ---
 
-## Folder Structure
-
-src/
-
-pages/
-components/
-layouts/
-services/
-hooks/
-store/
-types/
-utils/
-routes/
-
----
 
 ## Component Rules
 
@@ -75,7 +59,7 @@ Never call axios directly inside components.
 
 Use:
 
-services/
+repository/
 
 Example:
 
@@ -100,36 +84,6 @@ Use React Query for:
 
 * API Data
 * Server Cache
-
----
-
-## UI Guidelines
-
-Use Ant Design.
-
-Preferred components:
-
-* Table
-* Card
-* Drawer
-* Modal
-* Statistic
-* Timeline
-* Badge
-
----
-
-## Dashboard Rules
-
-Admin Dashboard must support:
-
-* Heatmap
-* Queue Monitoring
-* Live Statistics
-* Department Status
-* Alerts
-
-Use realtime Socket.IO updates.
 
 ---
 

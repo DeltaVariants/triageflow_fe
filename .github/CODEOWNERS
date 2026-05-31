@@ -1,0 +1,11 @@
+# CODEOWNERS file to define code ownership
+# Helps manage code review assignments
+
+# Everyone must review PRs that change these files
+@* /package.json
+@* /package-lock.json
+
+# Optional: Assign specific owners
+# /app/**/* @your-github-username
+# /store/**/* @your-github-username
+# /.github/workflows/** @your-github-username

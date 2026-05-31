@@ -96,12 +96,6 @@ Never write raw SQL inside controllers.
 
 ### Rule 6
 
-Medical workflows must be traceable.
-
-Every important action must generate an audit log.
-
-### Rule 7
-
 Use role-based authorization.
 
 Roles:
@@ -113,15 +107,8 @@ Roles:
 * PHARMACY_STAFF
 * CASHIER
 * ADMIN
+* NURSE
 
-### Rule 8
-
-All APIs must be documented using Swagger.
-
-### Rule 9
+### Rule 7
 
 Prefer reusable components over duplicated code.
-
-### Rule 10
-
-Write maintainable code before optimizing.

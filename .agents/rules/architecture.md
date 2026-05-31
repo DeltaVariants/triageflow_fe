@@ -16,7 +16,7 @@ Modules:
 * Patient
 * Triage
 * Queue
-* Navigation
+* Navigation (mapping)
 * Payment
 * Notification
 * Doctor
@@ -24,6 +24,8 @@ Modules:
 * Pharmacy
 * Admin
 * Audit
+* Receptionist
+* Patient Queue Display
 
 Each module contains:
 
