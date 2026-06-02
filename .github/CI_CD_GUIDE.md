@@ -18,9 +18,9 @@ Dự án này được cấu hình với **GitHub Actions** cho CI/CD. Có 3 wor
 - ✅ Build validation
 
 ### 3. **Deploy to Vercel** (`deploy-vercel.yml`)
-- ✅ Auto deploy trên push đến main/master
-- ✅ Preview deployments cho pull requests
-- ✅ Production deployment
+- 🛠️ Chỉ kích hoạt thủ công bằng nút **Run workflow** (workflow_dispatch)
+- ❌ Đã tắt tự động deploy khi push hoặc pull request
+- ✅ Hỗ trợ Production & Preview deployment tùy chọn
 
 ---
 
@@ -99,8 +99,8 @@ Checks:
 
 ### **Deploy Workflow**
 
-- **Main branch** → Production deploy
-- **PR** → Preview deployment
+- Kích hoạt thủ công qua nút **Run workflow** trên giao diện GitHub Actions.
+- Tùy chọn môi trường deploy (Production hoặc Preview).
 
 ---
 
