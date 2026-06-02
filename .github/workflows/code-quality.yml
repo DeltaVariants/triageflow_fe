@@ -29,4 +29,5 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Build check
-        run: npm run build -- --no-lint
+        run: npm run build
+
